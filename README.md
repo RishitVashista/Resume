@@ -2,11 +2,11 @@
 
 B.Tech CSE (AI) Undergraduate · Software Engineering & Problem Solving
 
-This repository contains my professional resume, hosted as a live webpage using GitHub Pages.
+A clean, single-page professional resume built with plain HTML and CSS, hosted as a live webpage using GitHub Pages.
 
 ## 🌐 Live Resume
 
-🔗 **View Live:** https://RishitVashista.github.io/Resume/
+🔗 **View Live:** https://rishitvashista.github.io/Resume/
 
 ## 👨‍💻 About Me
 
