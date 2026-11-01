@@ -1,0 +1,223 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rishit Vashista — Resume</title>
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  :root{ --ink:#111; --muted:#555; --line:#d9d9d9; --accent:#0b3fa8; }
+
+  body{
+    font-family: Georgia, "Times New Roman", serif;
+    color:var(--ink); background:#f4f5f7; line-height:1.5;
+    padding: 32px 16px; font-size: 15px;
+  }
+  .page{
+    max-width: 800px; margin: 0 auto; background:#fff;
+    padding: 44px 48px; border-radius: 6px;
+    box-shadow: 0 1px 12px rgba(0,0,0,.08);
+  }
+
+  /* Header */
+  header{ text-align:center; }
+  header h1{ font-size: 28px; letter-spacing:.3px; font-weight:700; }
+  header .tagline{ color:var(--muted); font-size:14px; margin-top:4px; font-style:italic; }
+  header .contact{
+    margin-top:12px; font-size:13.5px; color:var(--ink);
+    display:flex; flex-wrap:wrap; justify-content:center; gap:4px 14px;
+    font-family: -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  }
+  header .contact span{ white-space:nowrap; }
+  header .contact a{ color:var(--accent); text-decoration:none; }
+  header .contact a:hover{ text-decoration:underline; }
+  header .sep{ color:var(--muted); }
+
+  hr{ border:none; border-top:1px solid var(--line); margin:16px 0; }
+
+  /* Sections */
+  section{ margin-top:18px; }
+  h2{
+    font-family: -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+    font-size:13px; text-transform:uppercase; letter-spacing:1.5px;
+    color:var(--ink); border-bottom:1px solid var(--ink);
+    padding-bottom:4px; margin-bottom:10px; font-weight:700;
+  }
+  .row{ display:flex; justify-content:space-between; gap:16px; flex-wrap:wrap; }
+  .item{ margin-bottom:12px; }
+  .item:last-child{ margin-bottom:0; }
+  .item h3{ font-size:15px; font-weight:700; font-family: -apple-system, "Segoe UI", Roboto, Arial, sans-serif; }
+  .item .sub{ color:var(--muted); font-size:13.5px; font-style:italic; }
+  .item .date{ color:var(--muted); font-size:13px; white-space:nowrap; font-family: -apple-system, "Segoe UI", Roboto, Arial, sans-serif;}
+  .item ul{ margin:5px 0 0 18px; }
+  .item ul li{ margin-bottom:3px; font-size:14px; }
+  p{ font-size:14px; }
+
+  /* Skills */
+  .skills{ font-family: -apple-system, "Segoe UI", Roboto, Arial, sans-serif; font-size:14px; }
+  .skills .line{ margin-bottom:6px; }
+  .skills .k{ font-weight:700; }
+
+  /* Download button */
+  .btn{
+    display:inline-block; margin-top:22px; background:var(--accent);
+    color:#fff; padding:9px 18px; border-radius:6px;
+    text-decoration:none; font-weight:600; font-size:14px;
+    font-family: -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  }
+  .btn:hover{ opacity:.9; }
+
+  @media print{
+    body{ background:#fff; padding:0; font-size:11.5pt; }
+    .page{ box-shadow:none; border-radius:0; padding:0; max-width:100%; }
+    .btn{ display:none; }
+    a{ color:var(--ink) !important; text-decoration:none; }
+    section{ page-break-inside: avoid; }
+    @page{ margin: 14mm; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <header>
+    <h1>Rishit Vashista</h1>
+    <div class="tagline">B.Tech CSE (AI) Undergraduate — Software Engineering &amp; Problem Solving</div>
+    <div class="contact">
+      <span><a href="mailto:rishitvashist414@gmail.com">rishitvashist414@gmail.com</a></span>
+      <span class="sep">|</span>
+      <span>7650040133</span>
+      <span class="sep">|</span>
+      <span><a href="https://github.com/RishitVashista" target="_blank">GitHub</a></span>
+      <span class="sep">|</span>
+      <span><a href="https://linkedin.com/in/rishit-vashist-704410383" target="_blank">LinkedIn</a></span>
+      <span class="sep">|</span>
+      <span><a href="https://rishitvashista.github.io/portfolio/" target="_blank">Portfolio</a></span>
+      <span class="sep">|</span>
+      <span><a href="https://www.hackerrank.com/profile/rishitvashist414" target="_blank">HackerRank</a></span>
+    </div>
+  </header>
+
+  <hr>
+
+  <section>
+    <h2>Professional Summary</h2>
+    <p>
+      Computer Science undergraduate passionate about software engineering, problem-solving and
+      building real-world solutions. Experienced in developing practical projects and continuously
+      improving Data Structures and Algorithms. Strong communication skills, ability to understand
+      and explain problems clearly, and proven leadership as a Student Coordinator.
+    </p>
+  </section>
+
+  <section>
+    <h2>Education</h2>
+
+    <div class="item">
+      <div class="row">
+        <h3>B.Tech — Computer Science &amp; Engineering (AI)</h3>
+        <span class="date">Ongoing · 3rd Semester</span>
+      </div>
+      <div class="sub">Currently pursuing, with focus on programming, DSA and software development.</div>
+    </div>
+
+    <div class="item">
+      <div class="row">
+        <h3>Class 12th (Senior Secondary)</h3>
+        <span class="date">2025 · 70%</span>
+      </div>
+    </div>
+
+    <div class="item">
+      <div class="row">
+        <h3>Class 10th (Secondary)</h3>
+        <span class="date">2023 · 81%</span>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Experience</h2>
+
+    <div class="item">
+      <div class="row">
+        <h3>Web Development Intern — Botdigit</h3>
+        <span class="date">45 Days</span>
+      </div>
+      <div class="sub">Internship</div>
+      <ul>
+        <li>Worked on web development tasks as part of a professional team.</li>
+        <li>Observed and learned how teams collaborate and operate in an office environment.</li>
+        <li>Developed an understanding of professional workflows, communication and coordination.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <h2>Projects</h2>
+
+    <div class="item">
+      <div class="row">
+        <h3>Assignment &amp; Marks Report System</h3>
+        <span class="date">C / C++</span>
+      </div>
+      <div class="sub">University project — designed and developed independently</div>
+      <ul>
+        <li>Console-based system to record student assignments and marks.</li>
+        <li>Generates reports for quick review of student performance.</li>
+        <li>Implemented core logic using structured, modular C/C++ code.</li>
+        <li>Source code available on GitHub and shared on LinkedIn.</li>
+      </ul>
+    </div>
+
+    <div class="item">
+      <div class="row">
+        <h3>Teachers Reporting System</h3>
+        <span class="date">C / C++</span>
+      </div>
+      <div class="sub">University project — designed and developed independently</div>
+      <ul>
+        <li>System to manage and report details for two teachers separately.</li>
+        <li>Handles data entry, storage and report generation in a simple flow.</li>
+        <li>Built with a focus on clean structure and logical implementation.</li>
+        <li>Source code available on GitHub and shared on LinkedIn.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <h2>Skills</h2>
+    <div class="skills">
+      <div class="line"><span class="k">Languages:</span> C, C++</div>
+      <div class="line"><span class="k">Core Competencies:</span> Data Structures &amp; Algorithms, Problem Solving, Logic Building</div>
+      <div class="line"><span class="k">Tools &amp; Platforms:</span> VS Code, Git, GitHub, LeetCode, HackerRank, LinkedIn</div>
+      <div class="line"><span class="k">Soft Skills:</span> Communication, Teamwork, Leadership, Problem Understanding</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Additional Information</h2>
+    <div class="item">
+      <ul>
+        <li>Student Coordinator — responsible for coordinating academic activities and student communication.</li>
+        <li>Consistently learning and improving programming skills every day.</li>
+        <li>Regularly solve DSA problems on LeetCode and HackerRank.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <h2>Hobbies</h2>
+    <div class="item">
+      <ul>
+        <li>Playing cricket</li>
+        <li>Travelling and exploring new places</li>
+      </ul>
+    </div>
+  </section>
+
+  <a class="btn" href="resume.pdf" download>Download PDF</a>
+
+</div>
+</body>
+</html>
