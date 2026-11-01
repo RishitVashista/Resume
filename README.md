@@ -8,10 +8,6 @@ This repository contains my professional resume, hosted as a live webpage using 
 
 🔗 **View Live:** https://RishitVashista.github.io/Resume/
 
-## 📄 Download
-
-- [Download PDF Resume](resume.pdf) *(agar `resume.pdf` repo mein upload ki hai)*
-
 ## 👨‍💻 About Me
 
 Computer Science undergraduate passionate about software engineering, problem-solving, and building real-world solutions. Experienced in developing practical projects and continuously improving Data Structures and Algorithms. Strong communication skills, ability to understand and explain problems clearly, and proven leadership as a Student Coordinator.
